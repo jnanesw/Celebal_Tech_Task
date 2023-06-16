@@ -1,38 +1,333 @@
-.App {
-  text-align: center;
+#Dashboard1{
+  background-image:url("./assets/Homepage.png");
+  background-size: cover;
+  width: 100%;
+  height: 713px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------------------------------------------------- NAVBAR CSS ------------------------------------------------- */
+
+.navtext{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 108%;
+  font-weight: 500;
+  margin-right: 6%;
+}
+.navtext span{
+  margin-top: 3%;
+  padding-right: 0.2%;
+  margin-right: 2%;
+}
+.navtext span#special{
+  display: flex;
+  justify-content: center; /* Horizontally center the text */
+  align-items: center;
+  background-color: #f84649;
+  color: white;
+  width: 10%;
+  height: 40px;
+  border-radius: 6px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ------------------------------------------------- TEXT CSS ------------------------------------------------- */
+
+.ContentHP{
+  margin-left: 8%;
+  margin-top: 8.29%;
+  width: 50%;
+  margin-bottom:0;
+}
+.ContentHP div.text1{
+  font-size: 23px;
+  font-weight: 400;
+}
+.ContentHP div.text1 h1#Headings{
+  font-size: 57.3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* INPUT CSS */
+
+.ContentHP div.input1{
+  margin: 0px ;
+}
+
+.ContentHP div.input1 input{
+  width: 45%;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.ContentHP div.input1 button{
+  width: 20%;
+  height: 54px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #f84649;
+  color: white;
+
+}
+
+
+/* ------------------------------------------------- Services CSS ------------------------------------------------- */
+
+
+.services #about{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+.services #about #about-text{
+  margin-left: 6%;
+}
+.services div#services-list #list1{
+  display:flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin-left: 10%;
+  
+
+}
+.services div#services-list #list2{
+  display:flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin-left: 10%;
+
+}
+.services div#services-list span#list{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 3%;
+}
+
+div#list2 span#list img{
+  align-self: flex-start;
+  margin-left: 10%;
+}
+div#list1 span#list img{
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+.services div#services-list{
+  margin-top: 2%;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+
+
+/* ------------------------------------------------- Banner CSS ------------------------------------------------- */
+
+.Banner{
+  margin-top: 3%;
+}
+.Banner img{
+  width: 100%;
+  height: 300px;
+}
+
+
+/* ------------------------------------------------- Illustration CSS ------------------------------------------------- */
+
+
+.illustration{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.illustration #img1{
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+.illustration #img1 h1{
+  font-size: 60px;
+}
+.illustration #img1 p{
+  width: 70%;
+  line-height: 200%;
+  font-size: 17px;
+}
+
+.illustration #img1 img{
+  width: 504px;
+  height: 500px;
+  margin-right: 6%;
+}
+
+.illustration #img1 #button{
+  font-size: 20px;
+  background-color: #f84649;
   color: white;
+  width: 21%;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.illustration #img2{
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+.illustration #img2 h1{
+  font-size: 60px;
+}
+.illustration #img2 p{
+  width: 70%;
+  line-height: 200%;
+  font-size: 17px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.illustration #img2 img{
+  width: 504px;
+  height: 500px;
+  margin-right: 6%;
+}
+
+.illustration #img2 #button{
+  font-size: 20px;
+  background-color: #f84649;
+  color: white;
+  width: 21%;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+/* ------------------------------------------------- Logos CSS ------------------------------------------------- */
+
+
+.reference{
+  background-color: #F4F5F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reference #reference-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reference #reference-text h1{
+  font-size: 60px;
+}
+.reference #reference-text p{
+  font-size: 20px;
+}
+
+
+
+
+/* ------------------------------------------------- Contact-Us CSS ------------------------------------------------- */
+
+
+.contact-us{
+  margin-top: 6%;
+  margin-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div#image img{
+  width: 100%;
+  padding-bottom: 0;
+}
+.contact-us h1{
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+}
+.contact-us #explaination{
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact-us #button{
+    font-size: 20px;
+    background-color: #F8464A;
+
+    color: white;
+    width: 16%;
+    height: 78px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+  
+
+/* ------------------------------------------------- PRODUCTS CSS ------------------------------------------------- */
+
+
+.products{
+  background-color: #F8464A;
+  color: white;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+.products #List{
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.products #List ul{
+  list-style-type: none;
+  margin-right: 2%;
+}
+.products #List ul li{
+  margin-bottom: 18%;
+  color: #E6E6E6;
+  ;
+}
+.products #List h3{
+  
+  font-size: 18px;
+  margin-bottom: 18%;
+}
+
+#footer{
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#footer p{
+  margin-right: 49.5%;
+}
+#footer img{
+  width: 12%;
 }
